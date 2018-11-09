@@ -1,0 +1,150 @@
+body{
+padding:0;
+margin:0;
+box-sizing:border-box;
+background: #fae8c8;
+}
+header{
+	width:100%;
+	height:210px;
+	background:linear-gradient(to right,#cf0d12,#a2000e);
+	
+}
+/*上部*/
+div.top1{
+	margin:0 auto;
+	width:1000px;
+	height:130px;
+	display: flex;
+}
+div.top1 div.two{
+	width:480px;
+	margin-right: 0;
+	position: relative;
+}
+.two input{
+	width: 420px;
+	height:36px;
+	border-radius: 3px;
+	border:transparent;
+	position: absolute;
+	top:40px;
+	left:40px;
+	padding-left: 8px;
+}
+.two button{
+	font-size: 14px;
+	color:white;
+	background: #a8000f;
+	padding:6px 22px;;
+	position:absolute;
+	top:44px;
+	left:393px;
+	border:none
+}
+.top1 ul.three{
+	list-style: none;
+	display: flex;
+	line-height: 90px;
+	justify-content: flex-end
+}
+.top1 ul li a{
+	text-decoration: none;
+	margin-right: 10px;
+}
+/*下部*/
+div.top2{
+	width:100%;
+	height:80px;
+	background:white;
+	margin-top:0;
+}
+div.top2 ul{
+	margin:0 auto;
+	width:1000px;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	margin-top: 0;
+	padding-left: 0;
+	position: relative;
+}
+div.top2 ul li{
+	height:76px;
+	line-height: 76px;
+}
+div.top2 a{
+	color:#444;
+    font-size:20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding:0 24px;
+}
+
+img.shou{
+	display: inline-block;
+	margin-left: -7px;
+	margin-top: 8px;
+	vertical-align: top;
+}
+div.top2 ul li:first-child>a{
+	padding:24px;
+	border-bottom: 4px solid #ff3232;
+}
+a.updown{
+	background: url(../img/header/msj_menuarrow.gif) no-repeat right center;
+}
+div.top2>ul>li>div.nav2{
+	width: 100%;
+	position: absolute;
+	top:76px;
+	left:0;
+	margin: 0;
+	padding:0;
+	font-size: 12px;
+	background: transparent;
+	display:none;
+	z-index: 200;
+}
+div.top2>ul>li>div.nav2>div{
+	width:930px;
+	margin: 0 auto;
+	padding: 18px 30px 24px;
+	background: #fafafa;
+}
+div.top2>ul>li>div.nav2>div>div.family_food{
+	display: inline-block;
+	overflow: hidden;
+	justify-content: space-around;
+}
+div.top2>ul>li>div.nav2>div>div.family_food>dl{
+	margin: 0;
+	display: inline-block;
+}
+div.top2>ul>li>div.nav2>div>div.family_food>dl>dt{
+	display:block;
+	height:24px;
+	line-height: 24px;
+	font-size:17px;
+	color: #ff3232;
+}
+div.top2>ul>li>div.nav2>div>div.family_food>dl>dd{
+	display: inline-block;
+	color: #999;
+	cursor: pointer;
+	margin: 0;
+	padding-right: 14px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+}
+div.top2>ul>li>div.nav2>div>div.family_food>dl>dd:hover{
+	background: #ff3232;
+}
+div.top2>ul>li>div.nav2>div>div.family_food>img{
+	width: 350px;
+	position: absolute;
+	bottom:20px;
+	right:20px;
+}
+

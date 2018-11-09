@@ -1,0 +1,192 @@
+div.reg{
+    width:1000px;
+    background: #fff;
+    margin: 0 auto 40px;;
+}
+div.reg div.regWays{
+   text-align: center;
+    margin:0px;
+    padding:0px;
+}
+div.reg div.regWays a{
+    display:inline-block;
+    width:108px;
+    height:108px;
+    margin:0 30px;
+    background: url(../img/register/nl_dsficon1.png),no-repeat;
+}
+div.reg div.regWays a.posi2{
+    background-position-x: -108px;
+}
+div.reg div.regWays a.posi3{
+    background-position-x: -216px;
+}
+div.reg a.more_ways{
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    margin-top:20px;
+    height:66px;
+    line-height: 66px;
+    color:#333;
+    font-size: 15px;
+}
+
+div.reg a.more_ways:hover{
+    color:#ec5541;
+    text-decoration: underline;
+}
+div.reg div.others_zh{
+    width:60%;
+    height:100px;
+    text-align: center;
+    background: #f5f5f5;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 12px;
+    display: none;
+}
+div.reg div.others_zh a{
+    text-decoration: none;
+    color:#333;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 42px;
+    height:16px;
+    line-height: 16px;
+    padding:0 20px;
+    background: url(../img/register/nl_moredsf_icons.png) no-repeat;
+}
+div.reg div.others_zh a:hover{
+    color:#ec5541;
+    text-decoration: underline;
+}
+div.reg div.others_zh a.a2{
+    background-position-y: -16px;
+}
+div.reg div.others_zh a.a3{
+    background-position-y: -32px;
+}
+div.reg div.others_zh a.a4{
+    background-position-y: -48px;
+}
+div.reg div.or{
+    width:100%;
+    height:69px;
+    text-align: center;
+    background:url(../img/register/nl_or.png)  center no-repeat;
+}
+div.reg div.phone_email{
+    width:60%;
+    text-align: center;
+    background: #f5f5f5;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+div.reg div.phone_email>div:first-child{
+    height:32px;
+    line-height: 32px;
+    margin:32px auto 20px;
+}
+div.reg div.phone_email>div:first-child>a{
+    text-decoration: none;
+    color:#333;
+    font-size: 18px;
+    font-weight: bold;
+}
+div.reg div.phone_email>div:nth-child(2){
+    width:320px;
+    margin:0 auto;
+    overflow: hidden;
+    display: flex;
+}
+div.reg div.phone_email>div:nth-child(2)>div{
+    width:320px;
+}
+div.reg div.phone_email>div:nth-child(2)>div>input{
+    width: 296px;
+    color:#333;
+    padding:11px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;  
+    margin-bottom: 10px;
+}
+div.reg div.phone_email>div:nth-child(2)>div.phone_reg>input.input2{
+    display:inline-block;
+    width:150px;
+    margin-right: 10px;
+}
+#b1{
+   padding:5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background:#ddd;
+    color:#999;
+    width:134px;
+    height: 44px;
+    float: right;
+}
+div.reg div.phone_email>div:nth-child(2)>div.phone_reg>div{
+    height:33px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+div.reg div.phone_email>div:nth-child(2)>div.phone_reg>div>input{
+    position: relative;
+    top:2px;
+}
+div.reg div.phone_email>div:nth-child(2)>div.phone_reg>div>a{
+    text-decoration: none;
+    color:#ec5541;
+}
+#b2{
+    background:#ec5541;
+    border:1px solid #db432e;
+    border-radius: 4px;
+    height:42px;
+    line-height:42px;
+    font-size: 15px;
+    color:#fff;
+    padding:0px 24px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+#b3{
+    background:#ec5541;
+    border:1px solid #db432e;
+    border-radius: 4px;
+    height:42px;
+    line-height:42px;
+    font-size: 15px;
+    color:#fff;
+    padding:0px 24px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+div.reg>p{
+    text-align: center;
+    padding: 30px 0 60px 0;
+    margin-top:20px;
+}
+div.reg>p>a{
+    text-decoration: none;
+    color:#333;
+    font-size: 15px;
+
+}
+div.reg>p>a:hover{
+    color:#ec5541;
+    text-decoration: underline;
+}
+
+
+
+    

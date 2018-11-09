@@ -1,0 +1,204 @@
+/*主体*/
+#main{
+    width:1000px;
+    margin: 0 auto;
+}
+/*第一块*/
+#main div.f1{
+    width:100%;
+    overflow: hidden;
+}
+#main div.f1>div{
+    width:500%; 
+    transition: all 1s linear;
+}
+#main div.f1>div>div.img{
+    width:20%;
+    float:left;
+    padding:0;
+    margin:0;
+}
+#main div.f1 ul{
+    list-style: none;
+    display: flex;
+    padding:0;
+}
+#main div.f1 img{
+    width:330px;
+}
+/*第二块*/
+#main div.f2_details{
+    background:white;
+}
+#main div.f2 ul{
+    list-style: none;
+    padding:0 20px;
+    margin:0;
+}
+div.f2 ul li{
+    display: inline-block;
+    width: 58px;
+    height:30px;
+    padding-top: 20px;
+}
+div.f2 ul li a{
+    color:#666;
+    height:12px;
+    line-height: 12px;
+    padding:8px 12px;;
+    text-decoration:none;
+}
+div.f2 ul li.active a{
+    background:red;
+}
+#main div.f2 div.f2_details div.pic{
+    padding-left:20px;
+    height:130px; 
+    cursor: pointer;
+}
+#main div.f2 div.f2_details div.pic>div.box{
+    display: none;
+}
+#main div.f2 div.f2_details div.pic>div.active{
+    display: block;
+}
+#main div.f2 div.f2_details div.pic>div{
+    display: flex;
+    justify-content: space-around;
+}
+#main div.f2 img{
+    width:117px;
+    padding-bottom: 10px;
+}
+
+/*第三块*/
+#main div.f3 ul.u1{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:0;
+    background:#fff;
+}
+/*测试*/
+#main div.f3 ul.u1>li{
+    width:232px;
+    height:332px;
+}
+#main div.f3 ul.u1 li div.step{
+   height:100px;
+   overflow: hidden;
+   cursor: pointer;
+}
+#main div.f3 ul.u1 li div.step div.c1{
+    height:100px;
+    overflow: hidden;
+    transition:all 0.5s linear;
+}
+
+#main div.f3 ul.u1 li div.step div.c1 strong{
+    display:block;
+    height: 24px;
+    line-height: 24px;
+    padding: 11px 14px 0;
+    font-size: 14px;
+    color:#333;
+    font-weight: bold;
+}
+#main div.f3 ul.u1 li div.step div.c1 span{
+    display:block;
+    height:26px;
+    line-height:26px;
+    padding:0px 14px 0px;
+    font-size: 12px;
+    color:#999;
+}
+#main div.f3 ul.u1 li div.step div.c1 em{
+    display: block;
+    height:23px;
+    line-height:23px;
+    padding:0px 14px 0px;
+    font-size: 12px;
+    color:#ff3232;
+}
+#main div.f3 ul.u1 li div.step div.c2{
+    height:100px;
+    background: #eee;
+}
+#main div.f3 ul.u1 li div.step div.c2 ul{
+    list-style:none;
+    font-size: 14px;
+    color:#666;
+    text-indent:32px;
+    height:32px;
+    line-height:32px;
+    padding: 20px 0px 15px 14px;
+}
+#list{
+    width:232px;
+    height:332px;
+    background: white;
+}
+#list h3{
+    color: #333;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    border-bottom:1px solid #ddd;
+    text-indent: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+#list ul.u2 {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding:14px;
+}
+#list li{
+    margin:5px 3px;
+}
+
+#list li a{
+    color:#666;
+    display: inline-block;
+    padding:0 10px;
+    background:#fcfcfc;
+    border:1px solid #ddd;
+    height: 28px;
+    line-height: 28px;
+    text-decoration: none;
+}
+#list .btn{
+    display:block;
+    color:#fff;
+    font-size: 16px;
+    background:#ff3232;
+    border:1px solid #e90808;
+    padding:5px 25px;
+    cursor: pointer;
+    margin-left:16px;
+}
+/*第四块*/
+div.f4 div.desc{
+    display: flex;
+}
+div.f4 div.desc img{
+    width: 160px;
+    float:flex;
+}
+div.f4 div.desc ul{
+    list-style: none;
+    display: inline-block;
+    width: 325px;
+    height:160px;
+    margin:0;
+    padding-left: 14px;
+    background: white;  
+}
+div.f4 div.desc ul li a{
+    color:#333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
